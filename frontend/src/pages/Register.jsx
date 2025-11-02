@@ -10,7 +10,7 @@ function Register() {
   const submitHandler = async (e) => {
     e.preventDefault();
     try {
-      const res = await axios.post("http://localhost:3000/auth/register", {
+      const res = await axios.post("https://student-carpool-proposal.onrender.com/auth/register", {
         name,
         email,
         password,
